@@ -12,3 +12,5 @@ git commit -m "Update"
 
 # Push changes to remote repository on branch main
 git push origin main
+
+echo "Changes synced with remote repository on branch main"
