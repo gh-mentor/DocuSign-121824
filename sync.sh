@@ -1,6 +1,7 @@
 # This bash script uses git to stage, commit, and push changes to a remote GitHub repository on branch main.
 # It assumes that the remote repository is already set up and that the local repository is already cloned.
 
+# pull changes from remote repository on branch main
 git pull origin main
 
 # Stage all changes
