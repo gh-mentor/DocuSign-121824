@@ -20,6 +20,8 @@ GH handle:  andrew-scoppa
 
 ## OpenAI
 
+[Best Practices for Prompt Engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
+
 [Tokenization](https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/tokenization)
 
 [Tokenizer](https://platform.openai.com/tokenizer)
