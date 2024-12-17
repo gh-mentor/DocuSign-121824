@@ -8,7 +8,7 @@ GH handle:  andrew-scoppa
 
 ## Materials
 
-[Prompt-Engineering.pdf](https://github.com/user-attachments/files/18169836/Prompt-Engineering.pdf)
+[Copilot-Prompt-Engineering.pdf](https://github.com/user-attachments/files/18169931/Prompt-Engineering.pdf)
 
 ## Workshop
 
