@@ -1,4 +1,4 @@
-# Welcome to the GitHub Copilot Developer Training
+# GitHub Copilot Prompt Engineering
 
 Instructor: Andrew Scoppa
 
@@ -8,7 +8,7 @@ GH handle:  andrew-scoppa
 
 ## Materials
 
-[Copilot Slides](https://github.com/user-attachments/files/17378181/en-v2-github-copilot-developer.pdf)
+[Prompt-Engineering.pdf](https://github.com/user-attachments/files/18169836/Prompt-Engineering.pdf)
 
 ## Workshop
 
@@ -32,7 +32,7 @@ GH handle:  andrew-scoppa
 
 [Using GitHub Copilot Chat in your IDE](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide)
 
-[Tutorial: GitHub Copilot and VS Code](https://github.com/skills/copilot-codespaces-vscode)
+
 
 
 
