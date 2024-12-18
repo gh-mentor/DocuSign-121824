@@ -1,5 +1,5 @@
 /*
-This file contains a script of Transact SQL (T-SQL) command to interact with a database named 'Inventory'.
+This file contains a script of Transact SQL (T-SQL) command to interact with a database  'Inventory'.
 Requirements:
 - referential integrity is enforced
 Steps:
@@ -35,4 +35,26 @@ Steps:
 13) Create a function that returns the total number of products supplied by a supplier.
 */
 
+-- Check if the database 'Inventory' exists, if it does exist, drop it and create a new one.
+IF EXISTS (SELECT * FROM sys.databases WHERE name = 'Inventory')
+BEGIN
+    ALTER DATABASE Inventory SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE Inventory;
+END
+
+CREATE DATABASE Inventory;
+GO
+
+-- Set the default database to 'Inventory'.
+USE Inventory;
+GO
+
+-- Create a 'suppliers' table.
+CREATE TABLE suppliers (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    address VARCHAR(255),
+    city VARCHAR(50) NOT NULL,
+    state CHAR(2) NOT NULL
+);
 
